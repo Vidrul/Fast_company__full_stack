@@ -21,7 +21,7 @@ RUN npm install
 COPY Server /app
 
 
-COPY --from=client /app/client/build /app/client/build
+COPY --from=client /app/client/build /app/client
 
 
 EXPOSE 8080
